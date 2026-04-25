@@ -37,30 +37,6 @@ Users can:
 - Cost function based on deviation from target rating
 - Efficient selection of top-ranked hospitals
 
----
-
-## Project Structure
-PROJECT/
-│
-├── app.py
-├── dataset.csv
-│
-├── data/
-│ └── dataset.csv
-│
-├── model_training/
-│ ├── train_model.py
-│ └── pyproject.toml
-│
-├── models/
-│ ├── model_sentiment.pkl
-│ ├── model_rating.pkl
-│ └── vectorizer.pkl
-│
-├── utils/
-│ ├── data_preprocessing.py
-│ └── model_utils.py
-
 
 ---
 
@@ -70,7 +46,7 @@ Install required dependencies:
 
 ```bash
 pip install streamlit pandas scikit-learn nltk joblib
-
+```
 ---
 
 ## Execution Instructions
@@ -79,5 +55,6 @@ Run the application using Streamlit:
 
 ```bash
 streamlit run app.py
+```
 
 The application will open in your default web browser.
