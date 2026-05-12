@@ -58,3 +58,9 @@ streamlit run app.py
 ```
 
 The application will open in your default web browser.
+
+## Team Members
+
+- **Nabeeha Islam** - [@NabeehaIslam](https://github.com/NabeehaIslam)
+- **Ayesha Gohar** - [@Ayesha-134](https://github.com/Ayesha-134)
+
